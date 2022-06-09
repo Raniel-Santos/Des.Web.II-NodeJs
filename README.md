@@ -14,7 +14,7 @@
 * Node Express;
 * Visual Studio Code;
 * MySQL;
-* CSS 3;
+
 
 
 <h1> Tutorial de Utilização e Instalação da Aplicação </h1>
