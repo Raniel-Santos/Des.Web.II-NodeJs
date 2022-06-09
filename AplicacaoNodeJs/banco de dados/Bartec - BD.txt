@@ -1,0 +1,26 @@
+-- Exercicio Desenvolvimento Web II --
+-- Aplicação utilizando Node.js --
+-- Aplicação BarTEC --
+
+-- Criando as Tabelas --
+
+CREATE TABLE Cliente (
+	cliente_id int NOT NULL,
+	cliente_nome varchar(100) NOT NULL,
+	CONSTRAINT cliente_pk PRIMARY KEY (cliente_id)
+)
+
+CREATE TABLE Produto (
+	produto_id int NOT NULL,
+	produto_nome VARCHAR (100),
+	produto_preco VARCHAR (50),
+	produto_tipo VARCHAR (50),
+	CONSTRAINT produto_pk PRIMARY KEY (produto_id)
+)
+
+CREATE TABLE Pedido (
+	pedido_id int NOT NULL,
+	pedido_preco VARCHAR (50),
+	pedido_nome VARCHAR (50),
+	CONSTRAINT pedido_pk PRIMARY KEY (pedido_id)
+)
