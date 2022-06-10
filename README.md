@@ -1,4 +1,4 @@
-<h1 align = "center" >Projeto de NodeJs com Express e Sequelize</h1>
+<h1 align = "center" >Projeto de NodeJs com MySQL</h1>
 
 <p align="center">Exercicio de NodeJS com MySQL- Elabore uma aplicação em NodeJS baseado nas páginas 81 até 98.Fazer o CRUD usando as tabelas clientes e Pedidos.</p>
 
